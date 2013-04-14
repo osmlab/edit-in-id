@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.openstreetmap.org/*"],
-      "js": ["d3.min.js", "edit_in_id.js"]
+      "js": ["d3.min.js", "openstreetmap.js"]
     }
   ]
 }
