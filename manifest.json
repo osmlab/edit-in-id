@@ -1,11 +1,16 @@
 {
-  "manifest_version": 2,
-  "name": "Edit in iD",
-  "version": "1.0.0",
-  "content_scripts": [
-    {
-      "matches": ["http://www.openstreetmap.org/*"],
-      "js": ["d3.min.js", "openstreetmap.js"]
-    }
-  ]
+    "manifest_version": 2,
+    "name": "Edit in iD",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://www.openstreetmap.org/*"],
+            "js": ["d3.min.js", "openstreetmap.js"]
+        }
+    ]
 }
