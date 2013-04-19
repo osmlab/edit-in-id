@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Edit in iD",
+    "name": "Edit with iD",
     "version": "1.0.0",
     "icons": {
         "16": "icon16.png",
