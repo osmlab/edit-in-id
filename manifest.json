@@ -9,7 +9,10 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://*.tiles.mapbox.com/v3/*/page.html"],
+            "matches": [
+                "http://*.tiles.mapbox.com/v3/*/page.html",
+                "https://tiles.mapbox.com/*/edit/*"
+            ],
             "js": ["d3.min.js", "mapbox.js"]
         }
     ]
