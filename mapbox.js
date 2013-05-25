@@ -11,5 +11,5 @@ d3.select('.map-attribution')
     .text(function() { return d3.select(this).text() + ' '; })
     .append('a')
     .attr('href', 'http://openstreetmap.us/iD/release/')
-    .text('Edit with iD')
+    .text('Edit on OSM')
     .on('click', edit);
