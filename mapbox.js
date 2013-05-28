@@ -9,6 +9,6 @@ function edit() {
 d3.select('.map-attribution')
     .text(function() { return d3.select(this).text() + ' '; })
     .append('a')
-    .attr('href', 'http://openstreetmap.us/iD/release/')
+    .attr('href', 'http://openstreetmap.us/iD/master/')
     .text('Edit on OSM')
     .on('click', edit);
