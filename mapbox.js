@@ -1,8 +1,7 @@
 function edit() {
     d3.event.preventDefault();
     d3.event.stopPropagation();
-    var params = window.location.hash.substring(1).split('/'),
-        mapId = window.location.href.match(/[v3|edit]\/([^/]*?)[#|\/]/)[1];
+    var params = window.location.hash.substring(1).split('/');
     window.location.href = 'http://openstreetmap.us/iD/release/#map=' +
         params[0] + '/' + params[2] + '/' + params[1];
 }
