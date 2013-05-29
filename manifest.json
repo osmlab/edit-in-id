@@ -11,6 +11,7 @@
         {
             "matches": [
                 "http://*.tiles.mapbox.com/v3/*/page.html",
+                "http://*.tiles.mapbox.com/v3/*.html",
                 "https://tiles.mapbox.com/*/edit/*"
             ],
             "js": ["d3.min.js", "mapbox.js"]
