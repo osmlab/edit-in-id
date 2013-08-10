@@ -6,7 +6,7 @@ function edit() {
         params[0] + '/' + params[2] + '/' + params[1];
 }
 
-d3.select('.map-attribution')
+d3.select('.leaflet-control-attribution')
     .text(function() { return d3.select(this).text() + ' '; })
     .append('a')
     .attr('href', 'http://openstreetmap.us/iD/master/')
