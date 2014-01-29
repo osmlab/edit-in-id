@@ -6,9 +6,9 @@ function edit() {
         params[0] + '/' + params[1] + '/' + params[2];
 }
 
-d3.select('.mapbox-control-info')
-    .text(function() { return d3.select(this).text() + ' '; })
+d3.select('body')
     .append('a')
     .attr('href', 'http://www.openstreetmap.org/edit')
+    .attr('style', 'position:absolute;top:20px;right:10px;z-index:1000;font-weight:bold;')
     .text('Improve this map')
     .on('click', edit);
